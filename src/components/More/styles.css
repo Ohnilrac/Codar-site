@@ -1,0 +1,73 @@
+div.text .list{
+  margin-right: auto;
+}
+
+.list ul li{
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.list ul li i {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+
+  margin: 0 2rem 0 2rem;
+  padding: .2rem 0 0 .2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+
+  background: var(--red);
+  clip-path: circle();
+}
+
+.form-geral p{
+  font-size: 2rem;
+  margin-bottom: 1.3rem;
+}
+
+.form-geral form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-geral form input{
+  width: 22rem;
+  height: 5rem;
+  padding-left: 2rem;
+
+  border-radius: 1.5rem;
+  border: none;
+
+  background: var(--gray);
+}
+
+form button{
+  font-weight: 700;
+  margin-top: 1.3rem;
+}
+
+@media (min-width: 990px) {
+  .more{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .list ul li i{
+    margin-left: 0 ;
+  }
+
+  .form-geral form {
+    flex-direction: row;
+  }
+
+  .form-geral form input {
+    margin-right: 2rem;
+  }
+
+  .form-geral form button {
+    margin-top: 0;
+  }
+}
