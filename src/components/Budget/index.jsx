@@ -9,7 +9,7 @@ export function Budget() {
     <>
       <section className='container' id="budget">
         <div className='budget'>
-          <div>
+          <div className='image'>
             <img src={ Code } alt="Uma video chamada" />
           </div>
           <div className='text'>
@@ -23,3 +23,4 @@ export function Budget() {
     </>
   )
 }
+
